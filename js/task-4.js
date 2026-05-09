@@ -1,8 +1,3 @@
-function checkForSpam(message) {
-  const lowerMessage = message.toLowerCase();
-  return lowerMessage.includes("spam") || lowerMessage.includes("sale");
-}
-
 function getShippingCost(country) {
   let price;
   switch (country) {
